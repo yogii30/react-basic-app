@@ -1,0 +1,23 @@
+# PROJECT.yaml, drafted by `sdlc init`. Correct anything that is wrong, then save.
+#
+# Inferred from the repository at c62734155ad3. The platform infers these again
+# on every resolve; add a value under `declared:` only to override one.
+#   base_branch: master   <- git:refs/remotes/origin/HEAD
+#   databases: (none found)
+#   frameworks: react   <- package.json
+#   languages: javascript   <- package.json
+#   repository_url: https://github.com/yogii30/react-basic-app   <- git:remote.origin.url
+#   source_paths: src   <- src/
+#   test_paths: (none found)   ! test_paths: no top-level tests, test, __tests__ or spec directory
+api_version: platform/v1
+kind: project
+project: react-basic-app
+owner:
+  team: yogesh
+lifecycle: brownfield
+source_of_truth:
+  jira:
+    project_key: SDLC
+verification:
+  test_arguments: []
+  build_arguments: []
